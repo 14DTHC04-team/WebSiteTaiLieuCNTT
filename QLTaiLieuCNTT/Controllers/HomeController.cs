@@ -26,5 +26,10 @@ namespace QLTaiLieuCNTT.Controllers
 
             return View();
         }
+
+        public ActionResult HomeStart()
+        {
+            return View();
+        }
     }
 }

@@ -204,6 +204,46 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\carousel.css" />
+    <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\css\jquery-ui.css" />
+    <Content Include="Content\css\lsb.css" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\images\arrow.png" />
+    <Content Include="Content\images\ban1.jpg" />
+    <Content Include="Content\images\ban11.jpg" />
+    <Content Include="Content\images\ban22.jpg" />
+    <Content Include="Content\images\ban33.jpg" />
+    <Content Include="Content\images\ban44.jpg" />
+    <Content Include="Content\images\banner31.jpg" />
+    <Content Include="Content\images\c-arrows.png" />
+    <Content Include="Content\images\close.png" />
+    <Content Include="Content\images\f10.jpg" />
+    <Content Include="Content\images\f31.jpg" />
+    <Content Include="Content\images\f61.jpg" />
+    <Content Include="Content\images\f91.jpg" />
+    <Content Include="Content\images\g10.jpg" />
+    <Content Include="Content\images\g101.jpg" />
+    <Content Include="Content\images\g11.jpg" />
+    <Content Include="Content\images\g12.jpg" />
+    <Content Include="Content\images\g21.jpg" />
+    <Content Include="Content\images\g31.jpg" />
+    <Content Include="Content\images\g61.jpg" />
+    <Content Include="Content\images\g7.jpg" />
+    <Content Include="Content\images\g71.jpg" />
+    <Content Include="Content\images\next.png" />
+    <Content Include="Content\images\prev.png" />
+    <Content Include="Content\images\t11.jpg" />
+    <Content Include="Content\images\t21.jpg" />
+    <Content Include="Content\images\t31.jpg" />
+    <Content Include="Content\images\t41.jpg" />
+    <Content Include="Content\js\bootstrap-3.1.1.min.js" />
+    <Content Include="Content\js\easing.js" />
+    <Content Include="Content\js\jquery-2.1.4.min.js" />
+    <Content Include="Content\js\jquery-ui.js" />
+    <Content Include="Content\js\lsb.min.js" />
+    <Content Include="Content\js\move-top.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -213,6 +253,15 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -258,6 +307,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\HomeStart.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
