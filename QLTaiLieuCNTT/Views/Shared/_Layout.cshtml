@@ -31,7 +31,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- //js -->
 </head>
 <body>
-  
+  @RenderBody()
     <!--header-banner-section-starts-here -->
     
     <section class="banner-header" id="home">
@@ -53,7 +53,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="index.html">Home</a></li>
                             <li><a href="#about" class="scroll">About</a></li>
-                            <li><a href="#services" class="scroll">services</a></li>
+                            <li>@Html.ActionLink("ThemTaiLieu", "../TaiLieu/ThemTaiLieu", "Home")</li>
                             <li><a href="#gallery" class="scroll">gallery</a></li>
                             <li><a href="#professor" class="scroll">professors</a></li>
                             <li><a href="#contact" class="scroll">Contact</a></li>
@@ -648,7 +648,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
         </div>
     </div>
-    @RenderBody()
+    
     <!-- //footer -->
     <!-- start-smooth-scrolling -->
     <script type="text/javascript" src="~/Content/js/move-top.js"></script>
